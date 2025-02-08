@@ -1,14 +1,14 @@
-#Anime Face Generation using DCGAN (Keras & TensorFlow)
+# Anime Face Generation using DCGAN (Keras & TensorFlow)
 
-##Overview
+## Overview
 
 This project implements a Deep Convolutional Generative Adversarial Network (DCGAN) to generate anime-style face images. The model is trained using TensorFlow and Keras on a dataset of anime faces, learning to produce high-quality synthetic images.
 
-##Dataset
+## Dataset
 
 The dataset consists of anime face images loaded from the specified directory and preprocessed for training.
 
-##Model Architecture
+## Model Architecture
 
 The DCGAN consists of two neural networks:
 
@@ -18,7 +18,7 @@ Discriminator: Distinguishes between real and generated images, providing feedba
 
 Both networks use Convolutional layers, Batch Normalization, and LeakyReLU activations to improve stability and performance.
 
-##Implementation Details
+## Implementation Details
 
 Framework: TensorFlow & Keras
 
@@ -28,6 +28,6 @@ Image Preprocessing: Resizing, Normalization
 
 Visualisation: Matplotlib for displaying generated images during training
 
-##Results
+## Results
 
 The trained model generates high-quality anime faces after sufficient training epochs. Sample outputs are visualised to track the improvement of generated images over time.
